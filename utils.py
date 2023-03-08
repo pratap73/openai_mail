@@ -1,6 +1,6 @@
 import openai
 
-class ml_backend:
+class utils:
         
     openai.api_key = 'YOUR-API-KEY-HERE'
 

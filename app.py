@@ -1,23 +1,9 @@
 import streamlit as st
 import openai
-from ml_backend import ml_backend
+from utils import utils
 
-st.title("Interactive Email Generator App")
-st.text("by Alex Zavalny")
 
-st.markdown(""" 
 
-# About
- 
-## Play around with the sliders and text fields to generate your very own emails! 
-## At the end, you can automatically send your email to a recipient via Gmail  
-
-## Business Benefits and Usecases:
-* Time saved writing medium-long sized emails
-* Mental Energy is conserved
-* Anxiety of writing a **professional sounding** email (or email with any writing style) is removed as the GPT3 Language model used is trained from a variety of many different internet sources
-
-""")
 
 st.markdown("# Generate Email")
 
